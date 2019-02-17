@@ -8,6 +8,10 @@ app.get("/", function (req, res) {
     res.render("home");
 });
 
+app.get("/about", function(req, res) {
+    res.render("about");
+});
+
 // Creates server
 app.listen(process.env.PORT || 3000, function (req, res) {
     console.log("I'm not gay but dick be lookin tasty sometimes");
